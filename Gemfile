@@ -4,7 +4,6 @@ ruby '~> 2.6.5' if ENV.key?('DYNO') # in Heroku environment
 
 gem 'sinatra'
 gem 'unicorn'
-gem 'dalli'
 gem 'braille-ja', github: 'tadd/braille-ja'
 
 group :development do

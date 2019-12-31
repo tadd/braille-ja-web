@@ -3,15 +3,6 @@ require "sinatra/reloader" if development?
 require 'json'
 require 'braille-ja'
 require 'digest'
-require 'dalli'
-
-configure do
-  if memcachier_servers = ENV["MEMCACHIER_SERVERS"]
-    set :cache, Dalli::Client.new(memcachier_servers,
-                                  username: ENV["MEMCACHIER_USERNAME"],
-                                  password: ENV["MEMCACHIER_PASSWORD"])
-  end
-end
 
 helpers do 
   def setup_cache(seed)
