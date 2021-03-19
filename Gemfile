@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '~> 2.6.5' if ENV.key?('DYNO') # in Heroku environment
+ruby '~> 2.7.2' if ENV.key?('DYNO') # in Heroku environment
 
 gem 'sinatra'
 gem 'unicorn'
