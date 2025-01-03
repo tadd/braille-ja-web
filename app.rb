@@ -28,7 +28,7 @@ get '/ping' do
   'pong'
 end
 
-DEMO_SITE = 'http://tadd.github.io/braille-ja'
+DEMO_SITE = 'https://tadd.github.io/braille-ja'
 
 get '/' do
   redirect DEMO_SITE
