@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/tadd/braille-ja.git
-  revision: 706b7475dc3ee3293e58d9635326c69c33a83a81
+  revision: c34b218356db07f6ead4ef48263aa1d50c64dbe7
   specs:
     braille-ja (0.0.0)
 
@@ -14,7 +14,7 @@ GEM
     multi_json (1.15.0)
     mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
-    rack (3.1.10)
+    rack (3.1.12)
     rack-protection (4.1.1)
       base64 (>= 0.1.0)
       logger (>= 1.6.0)
